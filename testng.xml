@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite  name="nopcommerce regiression suit">
+<parameter name="browser" value ="chrome"></parameter>
+  <test name="regiression test">
+    <classes>
+      <class name="tests.UserRegerationTest"/>
+    </classes>
+  </test> 
+</suite> 

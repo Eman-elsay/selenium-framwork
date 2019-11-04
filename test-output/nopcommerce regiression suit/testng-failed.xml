@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [nopcommerce regiression suit]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="regiression test(failed)">
+    <classes>
+      <class name="tests.UserRegerationTest">
+        <methods>
+          <include name="stopdriver"/>
+          <include name="registerdusercanlogout"/>
+          <include name="registerusercanlogin"/>
+          <include name="usercanregistersuccessfully"/>
+          <include name="startdriver"/>
+        </methods>
+      </class> <!-- tests.UserRegerationTest -->
+    </classes>
+  </test> <!-- regiression test(failed) -->
+</suite> <!-- Failed suite [nopcommerce regiression suit] -->
