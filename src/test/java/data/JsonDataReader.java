@@ -11,9 +11,11 @@ import gherkin.deps.com.google.gson.JsonParser;
 import gherkin.deps.com.google.gson.JsonSyntaxException;
 import net.bytebuddy.dynamic.scaffold.MethodRegistry.Handler.ForAbstractMethod;
 
-public class JsonDataReader {
+/*public  class JsonDataReader {
 	
-	String firstname, lastname,emil,password;
+	String firstname, lastname,emil,password ;
+	
+
 	public void jsonreader() throws JsonIOException, JsonSyntaxException, FileNotFoundException
 	{
 		String filepath= System.getProperty("user.dir")+"\\src\\test\\java\\data\\UserData.json";
@@ -32,3 +34,4 @@ public class JsonDataReader {
 		
 
 }
+*/
